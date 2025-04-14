@@ -11,6 +11,7 @@
 
 
 - [this 키워드](/JavaScript/this.md)
+- [call / apply / bind](/JavaScript/callApplyBind.md)
 
 ## TypeScript
 
