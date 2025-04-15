@@ -14,6 +14,7 @@
 
 ## TypeScript
 - [타입스크립트의 `type`들](/TypeScript/types.md)
+- [타입스크립트에서 유용한 함수 파라미터 정리](/TypeScript/parameter.md)
 
 ## 프론트엔드 지식
 - [간단하게 보는 브라우저 렌더링](/frontend/browser.md)
