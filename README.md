@@ -12,6 +12,7 @@
 
 - [this 키워드](/JavaScript/this.md)
 - [call / apply / bind](/JavaScript/callApplyBind.md)
+- [promise](/JavaScript/promise.md)
 
 ## TypeScript
 - [타입스크립트의 `type`들](/TypeScript/types.md)
