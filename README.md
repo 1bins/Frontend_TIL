@@ -12,6 +12,7 @@
 - [call / apply / bind](/JavaScript/callApplyBind.md)
 - [promise](/JavaScript/promise.md)
 - [closure](/JavaScript/closure.md)
+- [var / let / const 차이](/JavaScript/variable.md)
 
 ## TypeScript
 - [타입스크립트의 type들](/TypeScript/types.md)
