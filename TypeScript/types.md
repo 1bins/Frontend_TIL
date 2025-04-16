@@ -3,7 +3,7 @@
 📌 *들어가기 전에*,
 
 자바스립트의 타입에는 `Primitive`타입과 `Object`타입이 있다.
-- Primitive: `number`, `string`, `boolea`, `bigint`, `symbol`, `null`, `undefined`
+- Primitive: `number`, `string`, `boolean`, `bigint`, `symbol`, `null`, `undefined`
 - Object: `function`, `array`, ...
 
 ## Types
