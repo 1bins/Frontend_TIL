@@ -11,9 +11,10 @@
 - [this 키워드](/JavaScript/this.md)
 - [call / apply / bind](/JavaScript/callApplyBind.md)
 - [promise](/JavaScript/promise.md)
+- [closure](/JavaScript/closure.md)
 
 ## TypeScript
-- [타입스크립트의 `type`들](/TypeScript/types.md)
+- [타입스크립트의 type들](/TypeScript/types.md)
 - [타입스크립트에서 유용한 함수 파라미터 정리](/TypeScript/parameter.md)
 
 ## 프론트엔드 지식
