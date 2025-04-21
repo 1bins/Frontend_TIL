@@ -16,6 +16,7 @@
 - [promise](/JavaScript/promise.md)
 - [closure](/JavaScript/closure.md)
 - [var / let / const 차이](/JavaScript/variable.md)
+- [고차함수](/JavaScript/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md)
 
 ## TypeScript
 - [타입스크립트의 type들](/TypeScript/types.md)
