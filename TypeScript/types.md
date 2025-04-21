@@ -90,3 +90,21 @@ function acceptSomeObject (obj: object) {}
 acceptSomeObject({ name: 'ellie' });
 acceptSomeObject({ animal: 'dog' });
 ```
+
+### Array, Tuple
+Array: 배열을 정의하는 타입,
+<br> Tuple: 서로 다른 타입의 배열을 허용. 권장하지 않음 -> interface, type alias, class로 대체 가능
+```
+// Array
+const fruits: string[] = ['딸기', '바나나'];
+const score: Array<number> = [1, 2, 3];
+
+// readonly: 전달된 인자를 함수 내부에서 변경할 수 없게 만듦 (object의 불변성을 보장함) 
+function printArray(fruits: readonly string[]) {
+    fruits.push('포도') // 오류 남 ❌ 
+}
+
+// Tuple
+let student: [string, number];
+student = ['name', 26];
+```
