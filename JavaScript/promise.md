@@ -19,7 +19,7 @@
 - `rejected`: 작업이 실패함
 
 ## 🧪 예제로 이해하기
-```
+```js
 const promise = new Promise((resolve, reject) => {
     const success = true;
     
@@ -53,7 +53,7 @@ promise
 
 #### 1. 여러 API 병렬 호출 (성능 최적화)
 순차적으로 처리하면 느리지만, `Promise.all`로 병렬 처리하면 속도가 줄어듦
-```
+```js
 const getUser = axios.get('/api/user');
 const getNotifications = axios.get('/api/notifications');
 const getMessages = axios.get('/api/messages');
@@ -83,7 +83,7 @@ async function fetchAlldata() {
 ```
 
 #### 2. 이미지 여러 장 preload 할 때
-```
+```js
 const loadImage = (src) => new Promise((resolve, reject) => {
     const img = new Image();
     img.src = src;
@@ -108,7 +108,7 @@ Promise.all([
 #### 예시 상황
 여러 API를 병렬로 요청할 때, 하나가 실패해도 나머지는 계속 진행해야 하는 경우.
 <br> 상품 목록을 가져오고 각 상품에 대한 상세 정보도 동시에 가져올 때, 상품 목록은 필수값이고 각 상품의 상세 정보는 실패해도 문제없이 진행되는 경우.
-```
+```js
 async function fetchProductData() {
   try {
     const [productListResult, productDetailsResult] = await Promise.allSettled([
@@ -127,7 +127,7 @@ async function fetchProductData() {
     console.log('상품 목록:', productList);
     console.log('상품 상세:', productDetails);
   } catch (err) {
-    console.error('전체 실패:', err);
+      console.error('전체 실패:', err);
   }
 }
 ```

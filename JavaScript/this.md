@@ -14,12 +14,12 @@
 
 ## 🧪 예제로 이해하기
 ### 전역 컨텍스트에서
-```
+```js
 console.log(this); // 브라우저에서는 window 객체
 ```
 
 ### 일반 함수 호출
-```
+```js
 function show() {
     console.log(this);
 };
@@ -27,7 +27,7 @@ show(); // window (또는 strict mode에선 undefined)
 ```
 
 ### 객체의 메서드로 호출
-```
+```js
 const user = {
     name: 'Alice',
     sayHi() {
@@ -38,7 +38,7 @@ user.sayHi(); // Alice
 ```
 
 ### 생성자 함수
-```
+```js
 function Person(name) {
     this.name = name;
 }
@@ -48,7 +48,7 @@ console.log(p.name); // Bob
 
 ### 화살표 함수
 화살표 함수의 `this`는 **정의된 시점**의 스코프에서 **가장 가까운(상위 스코프)** `this`를 그대로 사용한다 = 렉시컬 this
-```
+```js
 const user = {
     name: 'Dana',
     sayHi() {
@@ -62,7 +62,7 @@ user.sayHi(); //Dana
 ```
 
 ### call, apply, bind
-```
+```js
 function greet() {
     console.log(this.name);
 }
@@ -71,7 +71,7 @@ greet.call(person); // Charlie
 ```
 
 ### setTimeout
-```
+```js
 const person = {
     name: "Jane",
     sayHi() {
@@ -101,7 +101,7 @@ person.sayHi(); // undefined (this는 전역 객체)
 
 ## 🎯 this 관련 문제
 ### Q. 다음 코드에서 `this`는 무엇을 가리킬까?
-```
+```js
 const obj = {
   value: 100,
   getValue: function() {

@@ -23,7 +23,7 @@
 - 모든 함수(생성자 포함)는 `.prototype`이라는 속성을 가지고 있다.
 - 이 `.prototype` 객체에 메서드를 정의하면, 그 생성자로 만든 인스턴스들이 **공통으로 그 메서드를 사용 할 수 있다.**
 - **메모리 절약 + 기능 공유 + 유지보수 용이**
-```
+```js
 function Circle(radius) {
     this.radius = radius;
 }
@@ -53,7 +53,7 @@ console.log(c1.getArea === c2.getArea); // true
 ## ES6, 클래스
 ES6에서 클래스 문법이 생겼다.
 <br>기존의 "프로토타입 기반 상속"을 더 보기 쉽고 쓰기 쉽게 만든 "문법적 설탕"이다.
-```
+```js
 class Circle {
     constructor(radius) {
         this.radius = radius;

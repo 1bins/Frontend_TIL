@@ -16,7 +16,7 @@
 <br>
 
 ## 🧪 예제로 이해하기
-```
+```js
 const user = {
     name: "Alice",
 };
@@ -28,19 +28,19 @@ function say(greeting, puctuation) {
 
 ### call
 인자를 하나씩 나열
-```
+```js
 say.call(user, "Hello', "!"); // Hello, Alice!
 ```
 
 ### apply
 인자를 배열로 전달
-```
+```js
 say.apply(user, ["Hi", "!!"]); // Hi, Alice!!
 ```
 
 ### bind
 `boundSay`라는 새 함수로 반환, 인자를 하나씩 나열
-```
+```js
 const boundSay = say.bind(user, "Hey", "~~~");
 boundSay(); // Hey, Alice~~~
 ```
@@ -58,7 +58,7 @@ boundSay(); // Hey, Alice~~~
 > 재사용 가능한 유틸 함수나 콜백 내부에서 context를 명확하게 제어해야 할 때 사용.
 
 예를 들어, 공통 로직을 가진 함수에서 `this`에 따라 동작을 다르게 하거나, 외부 라이브러리에서 제공하는 콜백이 `this`를 이상하게 바인딩 할 때 `call`이나 `apply`로 제어한다.
-```
+```js
 function logInfo(level, msg) {
   console.log(`[${level}] ${this.name}: ${msg}`);
 }

@@ -29,7 +29,7 @@
 <br>
 
 **클로저에서의 문제**
-```
+```js
 for (var i = 0; i < 3; i++) {
   setTimeout(function () {
     console.log(i);

@@ -23,7 +23,7 @@
 ### `role`
 요소의 역할을 명확히 정의
 <br>스크린 리더는 `div`태그를 버튼으로 인식한다.
-```
+```html
 <div role="button">Click me</div>
 ```
 
@@ -31,20 +31,20 @@
 ### `aria-label`
 요소의 이름을 설명
 <br>시각적으로는 `X`지만, 스크린 리더는 "닫기"로 읽힘
-```
+```html
 <button aria-label="닫기">X</button>
 ```
 
 ### `aria-hidden`
 요소를 스크린 리더에서 무시함
-```
+```html
 <div aria-hidden="true">이건 스크린 리더가 무시함</div>
 ```
 
 ### `aria-expanded`
 드롭다운, 아코디언 등 **동적 콘텐츠**가 확장되거나 축소될 때, 그 상태를 나타내는 데 사용.
 <br>해당 요소가 열려 있는지, 닫혀 있는지를 보조 기술(스크린 리더 등)에 알려준다.
-```
+```html
 <button aria-expanded="false">메뉴 열기</button>
 <div id="accordion-content" hidden>
     ...아코디언 자리
@@ -66,7 +66,7 @@
 ### `aria-current`
 사용자가 현재 활성화된 항목을 식별할 수 있도록 돕는 속성.
 <br>주로 **탭, 네비게이션 메뉴, 페이지 내 내비게이션 링크** 등에서 사용되어, 보조 기술(스크린 리더)이 현재 위치를 명확하게 알려주도록 한다.
-```
+```html
 <nav>
     <ul>
         <li><a href="/home" aria-current="page">홈</a></li>
