@@ -18,6 +18,7 @@
 - [var / let / const 차이](/JavaScript/variable.md)
 - [고차함수](/JavaScript/%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.md)
 - [프로토타입](/JavaScript/prototype.md)
+- [렉시컬환경과 스코프체인](/JavaScript/%EB%A0%89%EC%8B%9C%EC%BB%AC%ED%99%98%EA%B2%BD_%EC%8A%A4%EC%BD%94%ED%94%84%EC%B2%B4%EC%9D%B8.md)
 
 ## TypeScript
 - [타입스크립트의 type들](/TypeScript/types.md)
