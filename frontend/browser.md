@@ -24,7 +24,7 @@
 6. **컴포지팅**: 각 레이어를 합쳐서 최종 화면을 표시 => 스크롤, 애니메이션 등도 여기서 처리된다
 
 ### `DOMContentLoaded` vs `load`
-- `DomContentLoaded`: HTML을 다 읽고 DOM 트리 완성되 ㄴ시점
+- `DomContentLoaded`: HTML을 다 읽고 DOM 트리 완성된 시점
   - 렌더링 전에 실행될 수도 있음
   - 이미지, 폰트, 영상 등의 리소스가 아직 안 불러와졌을 수도 있음
   - 초기화 작업, 이벤트 바인딩, DOM 접근 등에 유리함
