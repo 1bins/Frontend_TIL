@@ -2,14 +2,17 @@
 
 📌 *들어가기 전에*,
 
-<img src="https://t3.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1jYq/image/0w4e248ZRdt5-3NxSF2Z1b5GD40.JPG" width="320"/>
+<img src="https://i.namu.wiki/i/-B6mlCu66RkrhbSDhvB5lKAoomwWZXsPvCSFxK20aBGaOLhGv9Byx5lKGhY87YWkkPmA67GT3T8hGP402olemQ.webp" width="160"/>
 
-`closure`는 자바스크립트 고유의 개념이 아니었다.
-<br>함수를 일급 객체로 취급하는 함수형 프로그래밍 언어에서 사용되는 중요한 특성이다.
+"자바스크립트의 함수는 일급 객체다"
+<br> 함수도 숫자나 문자열처럼 값으로 다룰 수 있다.
+<br> 변수에 저장이 가능하고, 다른 함수에 인자로 넘길 수 있고, 다른 함수에서 반활할 수도 있다.
 
 ## 클로저란?
-클로저는 함수가 생성될 때의 외부 변수(렉시컬 환경)를 기억하고, 그 함수가 외부 스코프에서 실행되더라도 그 변수에 접근할 수 있게 해주는 기능이다.
-> 함수 내부에 선언된 함수(내부 함수)가 자신을 둘러싼 외부 함수(부모 함수)의 지역 변수에 접근할 수 있는 현상
+클로저는 함수가 생성될 때 외부 변수(렉시컬 환경)를 기억하고, 그 함수가 외부 스코프에서 실행되더라도 그 변수에 접근할 수 있게 해주는 기능이다.
+<br>
+[🎦 클로저, 죽은 함수의 망령](https://www.youtube.com/watch?v=WbVVKY9CDP0)
+> 함수가 자신이 생성된 환경을 '기억'하는 것.
 
 <br>
 
