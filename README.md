@@ -20,6 +20,8 @@
 - [프로토타입](/JavaScript/prototype.md)
 - [렉시컬환경과 스코프체인](/JavaScript/%EB%A0%89%EC%8B%9C%EC%BB%AC%ED%99%98%EA%B2%BD_%EC%8A%A4%EC%BD%94%ED%94%84%EC%B2%B4%EC%9D%B8.md)
 - [변수와호이스팅](/JavaScript/%EB%B3%80%EC%88%98%EC%99%80%ED%98%B8%EC%9D%B4%EC%8A%A4%ED%8C%85.md)
+- [class](/JavaScript/class.md)
+- [getter/setter](/JavaScript/getter_setter.md)
 
 ## TypeScript
 - [타입스크립트의 type들](/TypeScript/types.md)
