@@ -30,3 +30,4 @@
 
 ## 프론트엔드 지식
 - [간단하게 보는 브라우저 렌더링](/frontend/browser.md)
+- [리플로우와 리페인트](/frontend/%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%99%80%EB%A6%AC%ED%8E%98%EC%9D%B8%ED%8A%B8.md)
