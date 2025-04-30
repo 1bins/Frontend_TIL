@@ -10,6 +10,9 @@
 ## HTML
 - [웹 접근성, aria 태그](/HTML/aria.md)
 
+## CSS
+- [[SCSS] @import => @use](/CSS/use.md)
+
 ## JavaScript
 - [this 키워드](/JavaScript/this.md)
 - [call / apply / bind](/JavaScript/callApplyBind.md)
@@ -28,6 +31,10 @@
 - [타입스크립트의 type들](/TypeScript/types.md)
 - [타입스크립트에서 유용한 함수 파라미터 정리](/TypeScript/parameter.md)
 - [type alias, union, discriminated](/TypeScript/typeAlias.md)
+
+## React
+- [[Vite] 절대 경로 만들기](/React/vite/alias.md)
+- [[Vite] 이미지 경로](/React/vite/loadImage.md)
 
 ## 프론트엔드 지식
 - [간단하게 보는 브라우저 렌더링](/frontend/browser.md)
