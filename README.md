@@ -26,6 +26,7 @@
 - [class](/JavaScript/class.md)
 - [getter/setter](/JavaScript/getter_setter.md)
 - [이벤트 루프](/JavaScript/eventLoop.md)
+- [axios vs fetch](/JavaScript/axiosVsfetch.md)
 
 ## TypeScript
 - [타입스크립트의 type들](/TypeScript/types.md)
